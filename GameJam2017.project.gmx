@@ -23,13 +23,15 @@
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\object_bdgb_intro</object>
-    <object>objects\object_test</object>
-    <object>objects\object_bdgb_idle</object>
     <object>objects\object_lighting</object>
-    <object>objects\object_bdgb_death</object>
     <object>objects\object_block</object>
     <object>objects\object_box</object>
+    <object>objects\object_test</object>
+    <objects name="bdgb">
+      <object>objects\object_bdgb_intro</object>
+      <object>objects\object_bdgb_idle</object>
+      <object>objects\object_bdgb_death</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
