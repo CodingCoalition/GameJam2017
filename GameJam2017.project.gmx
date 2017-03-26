@@ -39,6 +39,8 @@
       <object>objects\object_bdgb_death</object>
     </objects>
     <object>objects\object_light</object>
+    <object>objects\object_door</object>
+    <object>objects\object_press_plate</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
