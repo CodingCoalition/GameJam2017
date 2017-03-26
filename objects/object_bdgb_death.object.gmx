@@ -51,11 +51,11 @@ image_speed = 0.75;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (light == 0)
+            <string>if (object_player1.light == 0)
 {
     if (animation_end == 1)
     {
-        instance_change(object_bdgb_intro, yes);
+        instance_change(object_bdgb_intro, true);
     }
 }
 </string>
