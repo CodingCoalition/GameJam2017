@@ -49,7 +49,7 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>object_test</whoName>
+        <whoName>object_player1</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -97,11 +97,11 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>object_test.x</string>
+            <string>object_player1.x</string>
           </argument>
           <argument>
             <kind>0</kind>
-            <string>object_test.y</string>
+            <string>object_player1.y</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -133,7 +133,7 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>object_test</whoName>
+        <whoName>object_player1</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

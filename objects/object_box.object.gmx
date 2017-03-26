@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>object_test</object>
+            <object>object_player1</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -33,7 +33,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-31</string>
+            <string>-32</string>
           </argument>
         </arguments>
       </action>
@@ -127,7 +127,7 @@
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>object_test</whoName>
+        <whoName>object_player1</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
@@ -187,7 +187,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>object_test</object>
+            <object>object_player1</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -289,7 +289,7 @@
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>object_test</whoName>
+        <whoName>object_player1</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
@@ -349,7 +349,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>object_test</object>
+            <object>object_player1</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -451,7 +451,7 @@
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>object_test</whoName>
+        <whoName>object_player1</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
@@ -511,7 +511,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>object_test</object>
+            <object>object_player1</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -613,7 +613,7 @@
         <exetype>1</exetype>
         <functionname>action_move_to</functionname>
         <codestring></codestring>
-        <whoName>object_test</whoName>
+        <whoName>object_player1</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>

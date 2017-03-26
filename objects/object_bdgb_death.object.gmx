@@ -73,7 +73,7 @@
         <exetype>1</exetype>
         <functionname>action_if_variable</functionname>
         <codestring></codestring>
-        <whoName>object_test</whoName>
+        <whoName>object_player1</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
