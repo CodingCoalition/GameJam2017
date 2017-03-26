@@ -20,6 +20,7 @@
     <sprite>sprites\sprite_box</sprite>
     <sprite>sprites\sprite_door</sprite>
     <sprite>sprites\sprite_point_light</sprite>
+    <sprite>sprites\sprite_room_light</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -41,6 +42,7 @@
     <object>objects\object_light</object>
     <object>objects\object_door</object>
     <object>objects\object_press_plate</object>
+    <object>objects\object_room_light</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
