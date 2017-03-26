@@ -5,8 +5,8 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\growl</sound>
     <sound>sound\crows</sound>
+    <sound>sound\growl</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_bdgb_intro</sprite>
