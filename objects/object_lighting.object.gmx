@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>ambient_light = 0.05;
 
-light_surface = surface_create(view_wview, view_hview);
+light_surface = surface_create(room_width, room_height);
 
 application_surface_draw_enable(false);
 
@@ -88,6 +88,9 @@ draw_clear_alpha(c_black, 1);
 draw_set_blend_mode(bm_add);
 
 //draw_sprite_ext(sprite_point_light, 0, object_test.x, object_test.y, 1, 1, 0, c_white, 1);
+
+room_lighting = instance_create(0, 0, object_room_light);
+
 with(object_light)
 {
     if (active)
@@ -96,9 +99,9 @@ with(object_light)
     }
 }
 
-with(object_room_light)
+with(room_lighting)
 {
-    if (active)
+    if (object_room_light.active)
     {
         draw_self();
     }
