@@ -28,6 +28,6 @@ uniform float u_fAmbient;
 
 void main()
 {
-    gl_FragColor = u_fAmbient + texture2D(u_sLight, v_vColour) * texture2D( gm_BaseTexture, v_vTexcoord );
+    gl_FragColor = (u_fAmbient + texture2D(u_sLight, v_vTexcoord)) * texture2D( gm_BaseTexture, v_vTexcoord );
 }
 
