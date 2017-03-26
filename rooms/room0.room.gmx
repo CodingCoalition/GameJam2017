@@ -122,6 +122,7 @@
     <instance objName="object_block" x="640" y="160" name="inst_C2CD31C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_block" x="640" y="192" name="inst_FF879164" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_test" x="128" y="96" name="inst_12A1F345" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_box" x="320" y="192" name="inst_94C08FDD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background0" x="0" y="0" w="64" h="64" xo="0" yo="0" id="10000066" name="inst_504987AC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

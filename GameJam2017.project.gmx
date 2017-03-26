@@ -14,6 +14,7 @@
     <sprite>sprites\sprite_test</sprite>
     <sprite>sprites\sprite_bdgb_death</sprite>
     <sprite>sprites\sprite_block</sprite>
+    <sprite>sprites\sprite_player1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -26,6 +27,7 @@
     <object>objects\object_lighting</object>
     <object>objects\object_bdgb_death</object>
     <object>objects\object_block</object>
+    <object>objects\object_box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
