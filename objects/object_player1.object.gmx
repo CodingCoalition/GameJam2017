@@ -144,7 +144,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>object_block</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -226,7 +226,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>object_block</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -308,7 +308,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>object_block</object>
           </argument>
           <argument>
             <kind>0</kind>
@@ -390,7 +390,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>-100</object>
+            <object>object_block</object>
           </argument>
           <argument>
             <kind>0</kind>
