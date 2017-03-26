@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>a</string>
+            <string>light</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -175,7 +175,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>a</string>
+            <string>light</string>
           </argument>
           <argument>
             <kind>0</kind>
@@ -289,7 +289,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>a</string>
+            <string>light</string>
           </argument>
           <argument>
             <kind>0</kind>
