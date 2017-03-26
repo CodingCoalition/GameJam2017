@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\growl</sound>
+    <sound>sound\crows</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite_bdgb_intro</sprite>
