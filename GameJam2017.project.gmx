@@ -9,6 +9,7 @@
     <sprite>sprites\sprite_bdgb_intro</sprite>
     <sprite>sprites\sprite_bdgb_idle</sprite>
     <sprite>sprites\sprite_test</sprite>
+    <sprite>sprites\sprite_bdgb_death</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
