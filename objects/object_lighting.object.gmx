@@ -87,8 +87,6 @@ shader_reset();
 draw_clear_alpha(c_black, 1);
 draw_set_blend_mode(bm_add);
 
-//draw_sprite_ext(sprite_point_light, 0, object_test.x, object_test.y, 1, 1, 0, c_white, 1);
-
 room_lighting = instance_create(0, 0, object_room_light);
 
 with(object_light)
@@ -99,12 +97,20 @@ with(object_light)
     }
 }
 
-with(room_lighting)
+if (object_player1.light == 1)
 {
-    if (object_room_light.active)
+    with(room_lighting)
     {
-        draw_self();
+        if (object_room_light.active)
+        {
+            draw_self();
+        }
     }
+}
+
+else
+{
+    draw_sprite_ext(sprite_point_light, 0, object_player1.x-112, object_player1.y-112, 1, 1, 0, c_white, 1);
 }
 draw_set_blend_mode(bm_normal);
 surface_reset_target();
