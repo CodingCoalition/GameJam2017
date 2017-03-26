@@ -16,6 +16,7 @@
     <object>objects\object_bdgb_intro</object>
     <object>objects\object_test</object>
     <object>objects\object_bdgb_idle</object>
+    <object>objects\object_lighting</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
