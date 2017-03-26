@@ -33,7 +33,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>-32</string>
+            <string>-31</string>
           </argument>
         </arguments>
       </action>
@@ -104,6 +104,30 @@
         <functionname>action_move_to</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>32</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>object_test</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
@@ -257,6 +281,30 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>object_test</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>32</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>424</id>
         <kind>2</kind>
         <userelative>0</userelative>
@@ -395,6 +443,30 @@
       </action>
       <action>
         <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>object_test</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>-32</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>424</id>
         <kind>2</kind>
         <userelative>0</userelative>
@@ -518,6 +590,30 @@
         <functionname>action_move_to</functionname>
         <codestring></codestring>
         <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>-32</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>109</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_move_to</functionname>
+        <codestring></codestring>
+        <whoName>object_test</whoName>
         <relative>-1</relative>
         <isnot>0</isnot>
         <arguments>
