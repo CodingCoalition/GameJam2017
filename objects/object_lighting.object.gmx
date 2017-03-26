@@ -25,7 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>ambient_light = 0.05;
+
+light_surface = surface_create(view_wview, view_hview);
+
+application_surface_draw_enable(false);
+
+uniform_ambient = shader_get_uniform(shd_multiply, "u_fAmbient");
+sampler_light = shader_get_sampler_index(shd_multiply, "u_sLight");
+
+</string>
           </argument>
         </arguments>
       </action>
@@ -47,7 +56,22 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>surface_set_target(light_surface);
+draw_clear_alpha(c_black, 1);
+draw_set_blend_mode(bm_add);
+
+draw_sprite_ext(sprite_point_light, 0, object_test.x, object_test.y, 1, 1, 0, c_white, 1);
+with(object_light)
+{
+    if (active)
+    {
+        draw_self();
+    }
+}
+
+draw_set_blend_mode(bm_normal);
+surface_reset_target();
+</string>
           </argument>
         </arguments>
       </action>
@@ -69,7 +93,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>shader_set(shd_multiply);
+shader_set_uniform_f(uniform_ambient, ambient_light);
+texture_set_stage(sampler_light, surface_get_texture(light_surface));
+draw_surface(application_surface, 0, 0);
+shader_reset();
+</string>
           </argument>
         </arguments>
       </action>
