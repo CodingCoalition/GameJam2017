@@ -97,7 +97,7 @@ with(object_light)
     }
 }
 
-if (object_player1.light == 1)
+if (object_control.light == 1)
 {
     with(room_lighting)
     {

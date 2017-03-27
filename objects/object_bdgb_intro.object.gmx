@@ -29,8 +29,8 @@
 image_index = 0;
 image_speed = 0.5;
 
-sound_stop(sound_growl);
-sound_play(sound_growl);
+audio_stop_sound(sound_growl);
+audio_play_sound(sound_growl, 4, false);
 </string>
           </argument>
         </arguments>
