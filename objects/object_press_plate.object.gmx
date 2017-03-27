@@ -49,11 +49,11 @@ image_speed=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(object_player1.x == object_press_plate.x &amp;&amp; object_player1.y == object_press_plate.y)
+            <string>if(place_meeting(x, y, object_player1))
 {
     image_index = 1;
 }
-if(object_player1.x != object_press_plate.x || object_player1.y != object_press_plate.y)
+else
 {
     image_index = 0;
 }
