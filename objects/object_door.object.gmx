@@ -50,7 +50,7 @@ image_speed=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(object_box.x = object_press_plate.x &amp;&amp; object_box.y = object_press_plate.y)
+            <string>if(object_box.x == object_press_plate.x &amp;&amp; object_box.y == object_press_plate.y)
 {
     image_index = 1;
 }
@@ -63,7 +63,7 @@ if(object_box.x != object_press_plate.x || object_box.y != object_press_plate.y)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="object_door">
+    <event eventtype="4" ename="object_player1">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -80,9 +80,10 @@ if(object_box.x != object_press_plate.x || object_box.y != object_press_plate.y)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(object_door.image_number = 1)
+            <string>if(object_door.image_number == 1)
 {
-    show_message("You WIN!");
+    show_message('Room Cleared');
+    //room_goto_next();
 }
 </string>
           </argument>

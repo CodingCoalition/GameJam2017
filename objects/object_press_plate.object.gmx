@@ -49,7 +49,7 @@ image_speed=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(object_player1.x = object_press_plate.x &amp;&amp; object_player1.y = object_press_plate.y)
+            <string>if(object_player1.x == object_press_plate.x &amp;&amp; object_player1.y == object_press_plate.y)
 {
     image_index = 1;
 }
